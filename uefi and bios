@@ -1,0 +1,154 @@
+<html platform="linux"><head>
+  <meta http-equiv="Content-Security-Policy" content="default-src chrome:; img-src data: *; media-src *; object-src 'none'">
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <meta name="viewport" content="width=device-width; user-scalable=0">
+  <link rel="stylesheet" href="chrome://global/skin/aboutReader.css" type="text/css">
+<link rel="stylesheet" href="chrome://global/skin/narrate.css"><title>UEFI-and-BIOS - Community Help Wiki</title><link rel="shortcut icon" href="https://help.ubuntu.com/favicon.ico"></head>
+
+<body class="light sans-serif loaded" style="--font-size:20px; --content-width:30em;">
+  <div class="top-anchor"></div>
+
+  <div id="toolbar" class="toolbar-container scrolled">
+    <div class="toolbar reader-toolbar">
+      <div class="reader-controls" articledir="ltr">
+        <button class="close-button button " aria-label="Close Reader View"><span class="hover-label">Close Reader View</span></button>
+        <ul class="dropdown style-dropdown">
+          <li>
+            <button class="dropdown-toggle button style-button" aria-label="Type controls"><span class="hover-label">Type controls</span></button>
+          </li>
+          <li class="dropdown-popup">
+            <div class="dropdown-arrow"></div>
+            <div class="font-type-buttons radiorow"><input id="radio-itemsans-serif-button" type="radio" class="radio-button" name="font-type"><label for="radio-itemsans-serif-button" class="sans-serif-button" checked="true">Sans-serif</label><input id="radio-itemserif-button" type="radio" class="radio-button" name="font-type"><label for="radio-itemserif-button" class="serif-button">Serif</label></div>
+            <div class="font-size-buttons buttonrow">
+              <button class="minus-button" title="Decrease Font Size"></button>
+              <span class="font-size-value">5</span>
+              <button class="plus-button" title="Increase Font Size">
+            </button></div>
+            <div class="content-width-buttons buttonrow">
+               <button class="content-width-minus-button" title="Decrease Content Width"></button>
+               <span class="content-width-value">3</span>
+               <button class="content-width-plus-button" title="Increase Content Width">
+            </button></div>
+            <div class="line-height-buttons buttonrow">
+                <button class="line-height-minus-button" title="Decrease Line Height"></button>
+                <span class="line-height-value">4</span>
+                <button class="line-height-plus-button" title="Increase Line Height">
+            </button></div>
+            <div class="color-scheme-buttons radiorow"><input id="radio-itemlight-button" type="radio" class="radio-button" name="color-scheme"><label for="radio-itemlight-button" class="light-button" checked="true" title="Color Scheme Light">Light</label><input id="radio-itemdark-button" type="radio" class="radio-button" name="color-scheme"><label for="radio-itemdark-button" class="dark-button" title="Color Scheme Dark">Dark</label><input id="radio-itemsepia-button" type="radio" class="radio-button" name="color-scheme"><label for="radio-itemsepia-button" class="sepia-button" title="Color Scheme Sepia">Sepia</label></div>
+          </li>
+        </ul>
+      <ul class="dropdown narrate-dropdown"><li><button class="dropdown-toggle button narrate-toggle" aria-label="Listen"><span class="hover-label">Listen</span></button></li><li class="dropdown-popup"><div class="narrate-row narrate-control"><button class="narrate-skip-previous" disabled="" title="Back"></button><button class="narrate-start-stop" title="Start"></button><button class="narrate-skip-next" disabled="" title="Forward"></button></div><div class="narrate-row narrate-rate"><input class="narrate-rate-input" value="0" step="5" max="100" min="-100" type="range" title="Speed"></div><div class="narrate-row narrate-voices"><div class="voiceselect voice-select"><button class="select-toggle" aria-controls="voice-options">
+      <span class="label">Voice:</span> <span class="current-voice">Default</span>
+    </button>
+    <div class="options" id="voice-options" role="listbox" style="max-height: 620px;"><button data-value="automatic" class="option selected" tabindex="-1" role="option" aria-selected="true">Default</button><button data-value="urn:moz-tts:speechd:English%20(Caribbean)?en-029" class="option" tabindex="-1" role="option">English (en-029)</button><button data-value="urn:moz-tts:speechd:English%20(Scotland)?en-GB" class="option" tabindex="-1" role="option">English (en-GB)</button><button data-value="urn:moz-tts:speechd:English%20(Great%20Britain)?en-GB" class="option" tabindex="-1" role="option">English (en-GB)</button><button data-value="urn:moz-tts:speechd:English%20(Received%20Pronunciation)?en-GB" class="option" tabindex="-1" role="option">English (en-GB)</button><button data-value="urn:moz-tts:speechd:English%20(Lancaster)?en-GB" class="option" tabindex="-1" role="option">English (en-GB)</button><button data-value="urn:moz-tts:speechd:English%20(West%20Midlands)?en-GB" class="option" tabindex="-1" role="option">English (en-GB)</button><button data-value="urn:moz-tts:speechd:English%20(America)?en-US" class="option" tabindex="-1" role="option">English (en-US)</button></div></div></div><div class="dropdown-arrow"></div></li></ul><button data-buttonid="pocket-button" class="button pocket-button" aria-label="Save To Pocket" style="background-image: url(&quot;chrome://global/skin/icons/pocket.svg&quot;); background-size: 16px 16px;"><span class="hover-label">Save To Pocket</span></button></div>
+    </div>
+  </div>
+
+  <div class="container" style="--line-height:1.6em;" dir="ltr">
+    <div class="header reader-header reader-show-element">
+      <a class="domain reader-domain" href="https://help.ubuntu.com/community/Installation/UEFI-and-BIOS">help.ubuntu.com</a>
+      <div class="domain-border"></div>
+      <h1 class="reader-title">UEFI-and-BIOS - Community Help Wiki</h1>
+      <div class="credits reader-credits"></div>
+      <div class="meta-data">
+        <div class="reader-estimated-time" dir="ltr">11-14 minutes</div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="content">
+      <div class="moz-reader-content reader-show-element"><div id="readability-page-1" class="page"><div dir="ltr" id="cwt-content" lang="en"><div><p>Contents</p><ol><li>
+<a href="#Preparation">Preparation</a></li><li>
+<a href="#Original_attempt">Original attempt</a><ol><li>
+<a href="#Not_stable_enough_to_survive_certain_updates">Not stable enough to survive certain updates</a></li></ol></li><li>
+<a href="#Stable_alternatives">Stable alternatives</a><ol><li>
+<a href="#Detailed_instructions">Detailed instructions</a></li></ol></li><li>
+<a href="#Installation_from_a_compressed_image_file">Installation from a compressed image file</a><ol><li>
+<a href="#Compressed_image_file">Compressed image file</a></li><li>
+<a href="#Torrent_file">Torrent file</a></li><li>
+<a href="#User_and_password">User and password</a></li><li>
+<a href="#in_Linux">in Linux</a></li><li>
+<a href="#in_Windows">in Windows</a></li><li>
+<a href="#gpt-fix">gpt-fix</a></li><li>
+<a href="#Final_system_tweaks">Final system tweaks</a></li></ol></li><li>
+<a href="#Links">Links</a></li></ol></div><h2 id="Preparation">Preparation</h2>
+<p>It might help to prepare by reading the following link <span id="line-6"></span><span id="line-7"></span></p><p><a href="https://help.ubuntu.com/community/Installation/FromUSBStick">https://help.ubuntu.com/community/Installation/FromUSBStick</a> <span id="line-8"></span><span id="line-9"></span></p><p>The following link gives more background information about partitioning <span id="line-10"></span><span id="line-11"></span></p><p><a href="https://help.ubuntu.com/community/DiskSpace">https://help.ubuntu.com/community/DiskSpace</a>  <span id="line-12"></span><span id="line-13"></span></p><h2 id="Original_attempt">Original attempt</h2>
+<p><a href="https://help.ubuntu.com/community/Installation/UEFI-and-BIOS/original-attempt">/original-attempt</a> <span id="line-16"></span><span id="line-17"></span></p><h2 id="Not_stable_enough_to_survive_certain_updates">Not stable enough to survive certain updates</h2>
+<p>I expected that it could be installed into a USB pendrive as a good alternative to a persistent live system, possible to update and upgrade without limits. But unfortunately a current update involving a new kernel and updating grub will make it fail to boot. So <strong>this system is not stable enough to survive certain updates</strong>. It is good only as an illustration of a method to make a bootable drive in UEFI as well as BIOS mode. <span id="line-20"></span><span id="line-21"></span></p><h2 id="Stable_alternatives">Stable alternatives</h2>
+<p>If you want a stable portable system, that boots in UEFI mode as well as BIOS/CSM mode, and in 64-bit as well as 32-bit computers, you can try <a href="https://ubuntuforums.org/showthread.php?t=2259682">One pendrive for all PC (Intel/AMD) computers</a>. If you want a pendrive with a live <strong>and</strong> an installed system, you can try <a href="https://ubuntuforums.org/showthread.php?t=2213631&amp;p=13262506#post13262506">A new and so far successful attempt to create a stable portable system, that works in UEFI and BIOS mode</a>. <span id="line-24"></span><span id="line-25"></span></p><h2 id="Detailed_instructions">Detailed instructions</h2>
+<h3 id="Stable_alternative_1">Stable alternative 1</h3>
+<p>There are links to instructions how to make an installed system (typically in a USB pendrive) that works with UEFI and BIOS, and is small enough to work in an undersized 16 GB pendrive. This system is created from Ubuntu 16.04 LTS 'Xenial' amd64 ('gamma' because it is beyond beta), and was simplified compared to the previous methods to make a stable installed system for UEFI and BIOS mode. <span id="line-30"></span><span id="line-31"></span></p><p>This link shows the post in an Ubuntu Forums tutorial, where the method was published: <span id="line-34"></span><span id="line-35"></span></p><p><a href="https://ubuntuforums.org/showthread.php?t=2213631&amp;page=4&amp;p=13468260#post13468260">Another new, simpler and so far successful attempt to create a stable portable system, that works in UEFI and BIOS mode</a> <span id="line-36"></span><span id="line-37"></span></p><p>with a description how to make it 'from scratch' plus a link to uploaded compressed image files plus a small script to fix the GPT after cloning. <span id="line-38"></span><span id="line-39"></span></p><h3 id="Stable_alternative_2">Stable alternative 2</h3>
+<p>The following link describes a new alternative with Lubuntu 18.04.1 LTS <span id="line-42"></span><span id="line-43"></span></p><ul><li>live <span id="line-44"></span></li><li>persistent live <span id="line-45"></span></li><li>installed system <span id="line-46"></span><span id="line-47"></span></li></ul><p><strong>See this link to the sub-page</strong>: <a href="https://help.ubuntu.com/community/Installation/UEFI-and-BIOS/stable-alternative-18.04.1">/stable-alternative-18.04.1</a> <span id="line-48"></span><span id="line-49"></span></p><h2 id="Installation_from_a_compressed_image_file">Installation from a compressed image file</h2>
+<p>There is an easy way for you to get an installed Ubuntu system, that boots both in UEFI and BIOS mode, and you can use it in several cases. However, <span id="line-52"></span><span id="line-53"></span></p><ul><li>if you want to learn how to do it, or <span id="line-54"></span></li><li>if you want to be sure of the content (and don't rely on me), or <span id="line-55"></span></li><li>if you want hibernation, or <span id="line-56"></span></li><li>if you want an encrypted disk (LVM with LUKS encryption), <span id="line-57"></span><span id="line-58"></span></li></ul><p>then you must do it yourself. (In the encrypted disk case, you must create the passphrase yourself during the installation.) <span id="line-59"></span><span id="line-60"></span></p><h2 id="Compressed_image_file">Compressed image file</h2>
+<p>It is straight-forward to install from a compressed image file using <a href="https://help.ubuntu.com/community/mkusb">mkusb or mkusb-nox</a>. Some tools may not work with compressed images of such large files. I tried in Lubuntu Xenial 32-bit daily to <strong>restore disk image</strong> with <strong>gnome-disks</strong> alias <strong>Disks</strong>, but it considered the size to be 3.5 GB, when it was 12 GB, so the image was truncated, <a href="https://bugs.launchpad.net/ubuntu/+source/gnome-disk-utility/+bug/1571255">Bug #1571255</a> <span id="line-63"></span><span id="line-64"></span></p><p>After this cloning operation you should run <a href="https://help.ubuntu.com/community/Installation/UEFI-and-BIOS#gpt-fix">gpt-fix</a> in order to match the gpt data to the current drive size. <span id="line-65"></span><span id="line-66"></span></p><p>Description of the <strong>short-cut to make an installed system</strong> (typically in a USB pendrive) that works with UEFI and BIOS from a compressed image file: <span id="line-67"></span><span id="line-68"></span></p><h3 id="Download_source_1">Download source 1</h3>
+<p>Download the following compressed image files from <span id="line-71"></span><span id="line-72"></span></p><p><strong><a href="https://phillw.net/isos/linux-tools/uefi-n-bios">https://phillw.net/isos/linux-tools/uefi-n-bios</a></strong> <span id="line-73"></span><span id="line-74"></span></p><p>where you also find a gpg-signed file with md5sums, <strong>md5sum.txt.asc</strong>. <span id="line-75"></span><span id="line-76"></span></p><p>Remember to check with <strong>md5sum</strong>, that the download of the compressed image file was successful. <span id="line-77"></span><span id="line-78"></span></p><div><table><tbody><tr>  <td><p> <strong>dd_Ubuntu_16.04-gamma-UEFI-n-BIOS-12GB.img.xz</strong> version for solid state and hard disk drives (original) </p></td>
+</tr>
+<tr>  <td><span id="line-79"></span><p> <strong>dd_Ubuntu_16.04-gamma-UEFI-n-BIOS-4-pendrive-12GB.img.xz</strong> version for pendrives </p></td>
+</tr>
+<tr>  <td><span id="line-80"></span><p> <strong>dd_Ubuntu_16.04.1_2017-01-17_UEFI-n-BIOS-12GB.img.xz</strong> version for solid state and hard disk drives (updated) </p></td>
+</tr>
+<tr>  <td><span id="line-81"></span><p> <strong>dd_text_16.04-UEFI-n-BIOS_2017-01-15_intel-4-pendrive-7.8GB.img.xz</strong> mini system with a text user interface </p></td>
+</tr>
+<tr>  <td><span id="line-82"></span><p> <strong>dd_text_16.04-UEFI-n-BIOS_2017-05-07_intel-4-pendrive-7.8GB.img.xz</strong> mini system with a text user interface (updated) </p></td>
+</tr>
+<tr>  <td><span id="line-83"></span><p> <strong>dd_dus-lxde_16.04-UEFI-n-BIOS_2016-05-07_intel-4-pendrive-7.8GB.img.xz</strong> light-weight desktop version with mkusb-dus </p></td>
+</tr>
+<tr>  <td><span id="line-84"></span><p> <strong>dd_lubuntu-18.04.1-desktop-amd64-persistent-n-installed_15GB.img.xz</strong> persistent-live &amp; installed for 16 GB pendrives</p></td>
+</tr>
+<tr>  <td><span id="line-85"></span><p> <strong>dd_unb_ubuntu-20.04_15GB_2020-06-26.img.xz</strong> Ubuntu 20.04 LTS <strong>installed</strong> for drive size &gt;= 16 GB; See also <a href="https://phillw.net/isos/linux-tools/uefi-n-bios/GrowIt.pdf">GrowIt.pdf</a> </p></td>
+</tr>
+<tr>  <td><span id="line-86"></span><p> <strong>dd_unb_ubuntu-20.04_15GB_2020-09-06.img.xz</strong> Ubuntu 20.04 LTS installed, works also with <strong>secure boot</strong> using a fix for the boothole bug; Drive size &gt;= 16 GB; No proposed repository so slower and more stable updates. </p></td>
+</tr>
+<tr>  <td><span id="line-87"></span><p> <strong>dd_unb_ubuntu-20.04_15GB_2020-09-07_with-proposed.img.xz</strong> Ubuntu 20.04 LTS installed, works also with <strong>secure boot</strong> using a fix for the boothole bug; Drive size &gt;= 16 GB; See also <a href="https://phillw.net/isos/linux-tools/uefi-n-bios/GrowIt.pdf">GrowIt.pdf</a> </p></td>
+</tr>
+</tbody></table></div><h3 id="Download_source_2">Download source 2</h3>
+<p>Download the following compressed image files from <span id="line-93"></span><span id="line-94"></span></p><p><a href="https://drive.google.com/open?id=0BzX-18u3W1sQUXI2YV95dHJxVlE">https://drive.google.com/open?id=0BzX-18u3W1sQUXI2YV95dHJxVlE</a> <span id="line-95"></span><span id="line-96"></span></p><div><table><tbody><tr>  <td><p> <strong>dd_Ubuntu_16.04.1_2017-01-17_UEFI-n-BIOS-12GB.img.xz</strong> version for solid state and hard disk drives </p></td>
+</tr>
+<tr>  <td><span id="line-97"></span><p> <strong>dd_dus-lxde_16.04-UEFI-n-BIOS_2017-05-07_intel-4-pendrive-7.8GB.img.xz</strong> light-weight desktop version with mkusb-dus </p></td>
+</tr>
+<tr>  <td><span id="line-98"></span><p> <strong>dd_text_16.04-UEFI-n-BIOS_2017-05-07_intel-4-pendrive-7.8GB.img.xz</strong> mini system with a text user interface </p></td>
+</tr>
+<tr>  <td><span id="line-99"></span><p> <strong>dd_lubuntu-18.04.1-desktop-amd64-persistent-n-installed_15GB.img.xz</strong> persistent-live &amp; installed for 16 GB pendrives </p></td>
+</tr>
+</tbody></table></div><p>md5sums: <span id="line-102"></span><span id="line-103"></span><span id="line-104"></span><span id="line-105"></span><span id="line-106"></span><span id="line-107"></span><span id="line-108"></span><span id="line-109"></span><span id="line-110"></span></p><pre><span id="line-1"></span>bac77b006baccb3d21923e3753f17641  dd_Ubuntu_16.04.1_2017-01-17_UEFI-n-BIOS-12GB.img.xz
+<span id="line-2"></span>c28619e78910e3c1f1e499a0af20598b  dd_dus-lxde_16.04-UEFI-n-BIOS_2017-05-07_intel-4-pendrive-7.8GB.img.xz
+<span id="line-3"></span>df970651be45d985c8c9579eed84719f  dd_text_16.04-UEFI-n-BIOS_2017-05-07_intel-4-pendrive-7.8GB.img.xz
+<span id="line-4"></span>a22b641ac2708df917452a14930994be  dd_lubuntu-18.04.1-desktop-amd64-persistent-n-installed_15GB.img.xz
+<span id="line-5"></span>7475bb74f56ccb74b5377f82f476a0dd  dd_unb_ubuntu-20.04_15GB_2020-06-26.img.xz
+<span id="line-6"></span>89b3cd5206a1ce0e6b569cf276e04d7f  dd_unb_ubuntu-20.04_15GB_2020-09-06.img.xz
+<span id="line-7"></span>ac00ae810b120d7b7dfca4d995593fbf  dd_unb_ubuntu-20.04_15GB_2020-09-07_with-proposed.img.xz</pre><h3 id="Screenshot_of_.27Ubuntu_20.04_LTS_-_installed.27">Screenshot of 'Ubuntu 20.04 LTS - installed'</h3>
+<p><img alt="25-dd_unb_ubuntu-20.04_15GB_2020-06-26.png" src="https://help.ubuntu.com/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=get&amp;target=25-dd_unb_ubuntu-20.04_15GB_2020-06-26.png" title="25-dd_unb_ubuntu-20.04_15GB_2020-06-26.png"> <span id="line-115"></span><span id="line-116"></span></p><h2 id="Torrent_file">Torrent file</h2>
+<p>You can download a torrent file in order to get a compressed image file. <span id="line-119"></span><span id="line-120"></span></p><p>The <strong>dd_text_16.04-UEFI-n-BIOS</strong> compressed image file was made up to date, and a torrent file was uploaded in January 2017. This is the main choice, if you want to start with a light-weight system and install your own selection of program packages - desktop packages, server packages and application packages. <span id="line-121"></span><span id="line-122"></span></p><p><a href="https://help.ubuntu.com/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=view&amp;target=dd_text_16.04-UEFI-n-BIOS_2017-01-15_intel-4-pendrive-7.8GB.img.xz.torrent" title="">dd_text_16.04-UEFI-n-BIOS_2017-01-15_intel-4-pendrive-7.8GB.img.xz.torrent</a> <span id="line-123"></span><span id="line-124"></span></p><p>There is a special version of the UEFI-n-BIOS system with the new <strong>dus</strong> installer. It can be used as a general purpose installed system too, in USB pendrives, memory cards (and also in SSDs and HDDs). Download the following torrent file, and use it to get the compressed image file. <span id="line-125"></span><span id="line-126"></span></p><p><a href="https://help.ubuntu.com/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=view&amp;target=dd_dus-lxde_16.04-UEFI-n-BIOS_2016-12-12_intel-4-pendrive-7.8GB.img.xz.torrent" title="">dd_dus-lxde_16.04-UEFI-n-BIOS_2016-12-12_intel-4-pendrive-7.8GB.img.xz.torrent</a> <span id="line-127"></span><span id="line-128"></span></p><p><strong>See more details at this link:</strong> <a href="https://help.ubuntu.com/community/Installation/UEFI-and-BIOS/torrent">/torrent</a> <span id="line-129"></span><span id="line-130"></span></p><h2 id="User_and_password">User and password</h2>
+<div><table><tbody><tr>  <td><p> user: guru         </p></td>
+</tr>
+<tr>  <td><span id="line-133"></span><p> password: changeme </p></td>
+</tr>
+</tbody></table></div><h2 id="in_Linux">in Linux</h2>
+<p>The target drive will be overwritten. Double-check which is the target drive, the drive you want to install into! <span id="line-138"></span><span id="line-139"></span></p><p>Use <strong>mkusb</strong> to install the system from the compressed image file. <span id="line-140"></span><span id="line-141"></span></p><p>See <a href="https://help.ubuntu.com/community/mkusb">https://help.ubuntu.com/community/mkusb</a> <span id="line-142"></span><span id="line-143"></span></p><h3 id="gpt_fix_in_mkusb">gpt_fix in mkusb</h3>
+<p>The GUID partition table, GPT, is fixed automatically, if you use <strong>mkusb 10.6.6</strong> or a newer version to install from these compressed image files. The functions <strong>gpt_zap</strong> and <strong>gpt_fix</strong> are built into mkusb. <span id="line-146"></span><span id="line-147"></span></p><p>If you use other tools, you need <strong>gpt-fix</strong> or to fix the GPT manually with <strong>gdisk</strong>. If this does not work, you probably need a bigger target drive (big enough to store all the partitions in the original source drive). <span id="line-148"></span><span id="line-149"></span></p><h2 id="in_Windows">in Windows</h2>
+<h3 id="Rufus">Rufus</h3>
+<ul><li>We assume that you have downloaded a compressed image file according to the instructions above. <span id="line-154"></span></li><li><p>Check that you have the current version of <a href="https://rufus.ie/">Rufus</a>. <span id="line-155"></span></p></li><li><p>Check that you have a tool that can extract the content from the compressed image file, and that can cooperate with Rufus, for example <a href="https://www.7-zip.org/">7-zip</a>. <span id="line-156"></span></p></li><li>Run Rufus, and it can manage the whole process of extraction and cloning from the compressed image file to a USB pendrive. <span id="line-157"></span></li><li><p>When you try to boot from the operating system in the target drive, there might be problems due to different size of the original drive size and the target drive size. This can be fixed in Ubuntu (and other Linux distros) by <strong>gdisk</strong> and often also by <strong>gpt-fix</strong> or <strong>gparted</strong>, if the target drive is big enough to store all the partitions in the original source drive. Otherwise you need a bigger target drive. <span id="line-158"></span><span id="line-159"></span></p></li></ul><h3 id="Stepwise_instructions">Stepwise instructions</h3>
+<p>Check the download and clone the image in Windows according to the following page <span id="line-162"></span><span id="line-163"></span></p><p><a href="https://wiki.ubuntu.com/Win32DiskImager/compressed-image_2_USB-or-SD">Win32DiskImager/compressed-image_2_USB-or-SD</a> <span id="line-164"></span><span id="line-165"></span></p><p>or according to this summary: <span id="line-166"></span><span id="line-167"></span></p><p>Download the following help programs  <span id="line-168"></span><span id="line-169"></span></p><p><a href="http://www.md5summer.org/">http://www.md5summer.org</a> <span id="line-170"></span><span id="line-171"></span></p><p><a href="https://www.7-zip.org/">https://www.7-zip.org</a> <span id="line-172"></span><span id="line-173"></span></p><p><a href="https://sourceforge.net/projects/win32diskimager">https://sourceforge.net/projects/win32diskimager</a> <span id="line-174"></span><span id="line-175"></span></p><p>First check that the download was successful with <strong>md5summer</strong> according to the file <strong>md5sums.txt.asc</strong>.  <span id="line-176"></span><span id="line-177"></span></p><p>Next extract the image file with <strong>7-zip</strong> (It is also possible with <strong>winzip</strong>) <span id="line-178"></span><span id="line-179"></span></p><p>from <strong>dd_Ubuntu_16.04-gamma-UEFI-n-BIOS-4-pendrive-12GB.img.xz</strong> <span id="line-180"></span><span id="line-181"></span></p><p>to <strong>dd_Ubuntu_16.04-gamma-UEFI-n-BIOS-4-pendrive-12GB.img</strong> <span id="line-182"></span><span id="line-183"></span></p><p>The target drive will be overwritten. Double-check which is the target drive, the drive you want to install into! <span id="line-184"></span><span id="line-185"></span></p><p>Then <strong>write</strong> the extracted image file (without the ending gz) with <strong>win32diskimager</strong>  <span id="line-186"></span><span id="line-187"></span></p><p>Win32diskimager looks for <strong>img</strong> files. <span id="line-188"></span><span id="line-189"></span></p><h2 id="gpt-fix">gpt-fix</h2>
+<p>After this cloning operation you should run <strong>gpt-fix</strong> in order to match the gpt data to the current drive size (unless you are using mkusb version 10.6.6 or newer versions of mkusb). <span id="line-192"></span><span id="line-193"></span></p><p>See more details at <a href="https://help.ubuntu.com/community/Installation/UEFI-and-BIOS/stable-alternative#gpt-fix">/stable-alternative#gpt-fix</a> <span id="line-194"></span><span id="line-195"></span></p><h2 id="Final_system_tweaks">Final system tweaks</h2>
+<h3 id="Decrease_wear_for_a_pendrive">Decrease wear for a pendrive</h3>
+<p><strong>Add the mount option noatime in /etc/fstab</strong> <span id="line-200"></span><span id="line-201"></span><span id="line-202"></span><span id="line-203"></span></p><pre><span id="line-1-1"></span># / was on /dev/sdb3 during installation
+<span id="line-2-1"></span>UUID=4c518694-d97c-4910-bb7b-eeb6a6b73874  /  ext4  noatime,errors=remount-ro 0  1</pre><p>Do not copy this line. Use your own data, only add <strong>noatime,</strong> <span id="line-206"></span><span id="line-207"></span></p><p><strong>Turn off journaling</strong> <span id="line-208"></span><span id="line-209"></span><span id="line-210"></span></p><pre><span id="line-1-2"></span>sudo tune2fs -O ^has_journal /dev/sdxy</pre><p>where x is the drive letter and y is the partition number of the root partition, for example /dev/sda3. <span id="line-212"></span><span id="line-213"></span></p><p><strong>Maybe remove swap</strong> <span id="line-214"></span><span id="line-215"></span></p><p>It is also possible to remove the swap partition and the swap entry in <strong>/etc/fstab</strong> in order to avoid wear due to swapping. <span id="line-216"></span><span id="line-217"></span><span id="line-218"></span></p><h3 id="Move_swap_and_grow_root_partitions">Move swap and grow root partitions</h3>
+<p>Move the swap partition and grow the root partition to use the whole <span id="line-221"></span>drive. See this link <span id="line-222"></span><span id="line-223"></span></p><p><a href="https://phillw.net/isos/linux-tools/uefi-n-bios/GrowIt.pdf">https://phillw.net/isos/linux-tools/uefi-n-bios/GrowIt.pdf</a> <span id="line-224"></span><span id="line-225"></span></p><p>Alternate link: <a href="https://help.ubuntu.com/community/Installation/UEFI-and-BIOS?action=AttachFile&amp;do=view&amp;target=GrowIt.pdf" title="">GrowIt.pdf</a> <span id="line-226"></span><span id="line-227"></span></p><h3 id="Login_and_password">Login and password</h3>
+<p>When you have installed these systems from a compressed image file, and you reboot, you <strong>log in with the following user and password</strong> <span id="line-230"></span><span id="line-231"></span></p><div><table><tbody><tr>  <td><p> user: guru         </p></td>
+</tr>
+<tr>  <td><span id="line-232"></span><p> password: changeme </p></td>
+</tr>
+</tbody></table></div><p>It is a good idea to change the password. <span id="line-235"></span></p><hr><h2 id="Links">Links</h2>
+<p>If you want a stable portable system, that boots in UEFI mode as well as BIOS/CSM mode, and in 64-bit as well as 32-bit computers, you can try <a href="https://ubuntuforums.org/showthread.php?t=2259682">One pendrive for all PC (Intel/AMD) computers</a>. If you want a pendrive with a live <strong>and</strong> an installed system, you can try <a href="https://ubuntuforums.org/showthread.php?t=2213631&amp;p=13262506#post13262506">A new and so far successful attempt to create a stable portable system, that works in UEFI and BIOS mode</a> <span id="line-240"></span><span id="line-241"></span></p><p>It might be a good idea to try various systems and methods before deciding what to install. <a href="https://ubuntuforums.org/showthread.php?t=2230389">Try Ubuntu (Kubuntu, Lubuntu, Xubuntu, ...) before installing it</a> <span id="line-242"></span><span id="line-243"></span></p><p>The following links contain general information <span id="line-244"></span><span id="line-245"></span></p><p><a href="https://help.ubuntu.com/community/Installation/FromUSBStick">https://help.ubuntu.com/community/Installation/FromUSBStick</a> <span id="line-246"></span><span id="line-247"></span></p><p><a href="https://help.ubuntu.com/community/DiskSpace">https://help.ubuntu.com/community/DiskSpace</a>  <span id="line-248"></span><span id="bottom"></span></p></div></div></div>
+    </div>
+
+    <div>
+      <div class="reader-message"></div>
+    </div>
+    <div aria-owns="toolbar"></div>
+  </div>
+
+
+
+</body></html>
